@@ -6,3 +6,5 @@ Kimai in a docker container
 `make grab` --> grabs the data directories for both apache and mysql
 
 `make prod` --> runs the containers with your persistent directories
+
+your local user should be a part of the www-data group
