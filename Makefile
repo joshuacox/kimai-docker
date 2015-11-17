@@ -78,7 +78,6 @@ grab:
 	docker cp `cat mysqlbare`:/var/lib/mysql datadir/
 	-rm -Rf datadir/html/installer
 	sudo chown -R www-data. datadir/html
-	sudo chown -R bob. datadir/mysql
 	echo `pwd`/datadir/mysql > MYSQL_DATADIR
 	echo `pwd`/datadir/html > APACHE_DATADIR
 
